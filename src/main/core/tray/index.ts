@@ -12,7 +12,7 @@ const showWindows = () => {
 const createTrayMenu = () => {
   return Menu.buildFromTemplate([
     {
-      label: '打开zyfun',
+      label: '打开detectivePlayer',
       click() {
         showWindows();
       },
@@ -55,7 +55,7 @@ const createSystemTray = () => {
 
   // Set application menu
   Menu.setApplicationMenu(createTrayMenu());
-  mainTray.setToolTip('zyfun');
+  mainTray.setToolTip('detectivePlayer');
 
   // Left-click event
   mainTray.on('click', () => showWindows());

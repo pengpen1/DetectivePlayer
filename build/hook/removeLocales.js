@@ -6,7 +6,7 @@ const fs = require("fs");
 
 exports.default = async function (context) {
   let localeDir = `${context.appOutDir}/locales/`;
-  // if (context.electronPlatformName === 'darwin') localeDir = `${context.appOutDir}/zyfun.app/Contents/Resources/`;
+  // if (context.electronPlatformName === 'darwin') localeDir = `${context.appOutDir}/detectivePlayer.app/Contents/Resources/`;
 
   fs.readdir(localeDir, function (err, files) {
     // files is array of filenames (basename form)

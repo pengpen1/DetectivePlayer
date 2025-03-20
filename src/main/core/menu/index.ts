@@ -10,7 +10,7 @@ const createMenu = () => {
 
   const menuBar: Array<MenuItemConstructorOptions | MenuItem> = [
     {
-      label: 'zyfun',
+      label: 'detectivePlayer',
       submenu: [
         { label: '关于', role: 'about' },
         { type: 'separator' },

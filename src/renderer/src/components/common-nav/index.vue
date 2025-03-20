@@ -41,7 +41,7 @@
             </t-list-item>
           </t-list>
         </div>
-        <div class="nav-sub-tab-bottom">
+        <!-- <div class="nav-sub-tab-bottom">
           <t-swiper
             class="nav-swiper"
             :duration="300"
@@ -64,7 +64,7 @@
             </t-swiper-item>
           </t-swiper>
           <slot name="customize"></slot>
-        </div>
+        </div> -->
       </div>
     </div>
 

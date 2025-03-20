@@ -71,9 +71,9 @@ const initConfig = async () => {
       window.$pageSpy = new PageSpy({
         api: 'pagespy.jikejishu.com',
         clientOrigin: 'https://pagespy.jikejishu.com',
-        project: 'zyfun',
+        project: 'detectivePlayer',
         autoRender: true,
-        title: 'zyfun for debug',
+        title: 'detectivePlayer for debug',
       });
     }
   }

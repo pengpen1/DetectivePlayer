@@ -1,7 +1,7 @@
 {
-  "name": "zyfun",
+  "name": "detectivePlayer",
   "version": "3.4.0-beta20250225",
-  "description": "zyfun client",
+  "description": "detectivePlayer client",
   "main": "./out/main/index.js",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "zyplayer",
-    "zyfun",
+    "detectivePlayer",
     "electron-app",
     "video"
   ],
@@ -36,7 +36,7 @@
     "merge-licenses": "yarn licenses generate-disclaimer --no-production > ./LICENSE.other",
     "start": "electron-vite preview",
     "postinstall": "electron-builder install-app-deps",
-    "dev": "electron-vite dev -w",
+    "serve": "electron-vite dev -w",
     "build": " electron-vite build",
     "build:web": "npm run build",
     "build:unpack": "npm run build && electron-builder --dir",

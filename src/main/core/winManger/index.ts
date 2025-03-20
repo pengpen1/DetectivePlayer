@@ -118,7 +118,7 @@ const createMain = async () => {
     show: false,
     frame: false,
     autoHideMenuBar: true,
-    title: 'zyfun',
+    title: 'detectivePlayer',
     trafficLightPosition: { x: 12, y: 20 },
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
@@ -181,7 +181,7 @@ const createPlay = async () => {
     show: false,
     frame: false,
     autoHideMenuBar: true,
-    title: 'zyfun-play',
+    title: 'detectivePlayer-play',
     trafficLightPosition: { x: 12, y: 20 },
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),

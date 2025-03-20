@@ -1,16 +1,7 @@
-<p align="center">
-  <img width="128" src="https://s2.loli.net/2024/02/29/7Q1nVbhkHdSmo5D.png" >
-</p>
-<p align="center">
-  <a href="https://zy.catni.cn" target="_blank">文档</a>
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/wiki" target="_blank">维基</a>
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/issues" target="_blank">反馈</a>
-  <a href="https://github.com/Hiram-Wong/ZyPlayer/releases" target="_blank">下载</a>
-</p>
 
-# 软件介绍
+# 软件介绍-detectivePlayer
 
-> 名称新[zyfun]-名称旧[zyplayer]
+> [detectivePlayer]-为[Hiram-Wong大佬](https://github.com/Hiram-Wong)的[zyfun](https://github.com/Hiram-Wong/ZyPlayer)二开自用项目，不商用。
 
 一款采用现代化技术栈开发的高颜值媒体播放器，它基于 `electron-vite` 框架，集成了 `TDesign` UI 组件库与 `Vue3` 全家桶，以清新的薄荷绿为主题，旨在为用户提供流畅的跨平台娱乐体验。
 
@@ -22,7 +13,7 @@
 
 <details>
 <summary>展开查看用户协议及免责申明</summary>
-感谢您选择使用zyfun(以下简称本软件)，在使用产品和服务之前，请您仔细阅读和理解以下声明:
+感谢您选择使用detectivePlayer(以下简称本软件)，在使用产品和服务之前，请您仔细阅读和理解以下声明:
 
 1. 若您不同意本声明的任何内容，请您立即停止使用本软件。一旦您开始使用本软件产品和服务，则表示您已同意本声明的所有内容。
 2. 本软件仅供个人学习、研究和技术交流使用，仅提供展示功能，所有数据资源均由用户自身制作提供，包括但不限于视频网站、媒体分享站点等。本软件无法控制这些资源的合法性、准确性、完整性或可用性，因此不对资源内容的真实性、合法性或适用性负责。

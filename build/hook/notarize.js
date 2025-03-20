@@ -15,7 +15,7 @@ module.exports = async (context) => {
     return
   }
 
-  const appId = 'com.zyfun.player'
+  const appId = 'com.detectivePlayer.player'
 
   const { appOutDir } = context
 

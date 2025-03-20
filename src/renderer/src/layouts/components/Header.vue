@@ -7,7 +7,7 @@
     </div>
     <div class="right no-drag">
       <div class="system-functions">
-        <sponsor class="system-function" />
+        <!-- <sponsor class="system-function" /> -->
         <language class="system-function" />
         <system-skin class="system-function" />
         <lab class="system-function" />

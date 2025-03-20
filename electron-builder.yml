@@ -1,10 +1,10 @@
 # see config at https://www.electron.build/configuration/configuration
 
 # 应用程序的唯一标识符
-appId: com.zyfun.player
+appId: com.detectivePlayer.player
 # 应用程序的产品名称
-productName: zyfun
-copyright: Copyright © 2023 zyfun Team Inc.
+productName: detectivePlayer
+copyright: Copyright © 2025 detectivePlayer Team Inc.
 # 构建资源所在的目录
 directories:
   buildResources: build
@@ -25,7 +25,7 @@ afterSign: build/hook/notarize.js
 # Windows 平台配置
 win:
   # 可执行文件名
-  executableName: zyfun
+  executableName: detectivePlayer
   # 应用程序的图标文件路径
   icon: build/icons/logo.ico
   # 构建类型
@@ -57,7 +57,7 @@ nsis:
 # macOS 平台配置
 mac:
   # 可执行文件名
-  executableName: zyfun
+  executableName: detectivePlayer
   # 应用程序的图标文件路径
   icon: build/icons/logo.icns
   # 权限继承的文件路径
@@ -86,7 +86,7 @@ dmg:
 # Linux 平台配置
 linux:
   # 可执行文件名
-  executableName: zyfun
+  executableName: detectivePlayer
   # 应用程序的图标文件路径
   icon: build/icons/logo.icns
   # 构建类型
@@ -104,7 +104,7 @@ linux:
         - x64
         - arm64
   # 维护者信息
-  maintainer: zyfun team
+  maintainer: detectivePlayer team
   # 应用程序类别
   category: Audio;Video
 # AppImage 配置

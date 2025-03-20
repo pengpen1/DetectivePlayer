@@ -1,5 +1,5 @@
 export default {
-  mode: 'light',
+  mode: 'dark',
   brandTheme: '#85d46e',
   sysConfigSwitch: 'configBase',
   timeout: 5000
