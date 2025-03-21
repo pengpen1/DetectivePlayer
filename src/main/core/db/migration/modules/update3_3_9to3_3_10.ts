@@ -2,6 +2,8 @@ import { eq } from 'drizzle-orm';
 import { db, client, schema } from '../../common';
 import logger from '@main/core/logger';
 
+// 版本 3.3.9 更新到 3.3.10 时，确保数据库结构和数据与新版本的要求相匹配。通过执行一系列的 SQL 操作和数据更新逻辑，脚本对数据库表结构进行了必要的调整
+// 对特定的设置项进行了更新或插入操作，并记录了迁移完成的日志信息。这样可以保证应用在更新后能够正常运行，数据能够正确读取和写入。
 const update = async () => {
   await client.exec(`
     ALTER TABLE tbl_history ALTER COLUMN "videoId" TYPE varchar(1024);

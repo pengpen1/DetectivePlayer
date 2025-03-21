@@ -1,6 +1,6 @@
 [
   { "key": "version", "value": "3.3.10" },
-  { "key": "theme", "value": "auto" },
+  { "key": "theme", "value": "dark" },
   { "key": "lang", "value": "zh_CN" },
   { "key": "defaultHot", "value": "kylive" },
   { "key": "defaultSearchRecommend", "value": "site" },

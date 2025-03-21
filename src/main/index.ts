@@ -23,7 +23,7 @@ const setup = async () => {
    * fix before => '/usr/bin'
    * fix after => '/usr/local/bin:/usr/bin'
    */
-  fixPath();
+  fixPath(); // 修复 process.env.PATH 环境变量，确保 Electron 能够正确找到系统路径
   logger.info(`[env] ${process.env.PATH}`);
   logger.info(`[electron][version] ${process.versions.electron}`);
   logger.info(`[chromium][version] ${process.versions.chrome}`);
@@ -45,13 +45,13 @@ const setup = async () => {
   app.commandLine.appendSwitch("ignore-gpu-blacklist"); // 忽略GPU黑名单
   app.commandLine.appendSwitch("no-sandbox"); // 禁用沙盒
   app.commandLine.appendSwitch('proxy-bypass-list', '<local>'); // 代理白名单
-  app.commandLine.appendSwitch('wm-window-animations-disabled'); // 禁用窗口动画
+  //app.commandLine.appendSwitch('wm-window-animations-disabled'); // 禁用窗口动画
 
   if (platform.isLinux) {
     app.disableHardwareAcceleration();
   }
 
-  remoteInit(); // 主进程初始化
+  remoteInit(); // 主进程初始化，初始化 Electron 的远程模块
   await dbInit(); // 初始化数据库
   await globalVariable(); // 全局变量
   if (globalThis.variable.debug) await dbServer(); // 初始化数据库服务

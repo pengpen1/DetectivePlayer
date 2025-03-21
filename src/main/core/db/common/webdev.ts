@@ -3,6 +3,8 @@ import webdev from '@main/utils/webdev';
 import { setting, db } from '@main/core/db/service';
 import { registerSchedule, runSchedule } from '@main/utils/schedule';
 
+// 实现从本地数据库到 WebDAV 服务器的数据同步，并通过定时任务确保数据的定期更新。
+// 在 Electron 应用中提供了数据备份和同步的能力，使得用户的数据可以安全地存储在远程服务器上
 const syncWebdev = async () => {
   logger.info('[webdev][sync][start] try');
 

@@ -7,8 +7,8 @@ import * as schema from './schema';
 
 const DB_PATH = join(app.getPath('userData'), 'database');
 
-const client = new PGlite(DB_PATH);
-const db = drizzle({ client, schema });
+const client = new PGlite(DB_PATH); // 创建一个 PGLite 客户端，指定数据库文件的存储路径
+const db = drizzle({ client, schema }); // 创建一个 Drizzle ORM 实例，传入 PGLite 客户端和数据库表结构
 // const migrateAfterClientReady = async () => {
 //   if (!client.ready) await client.waitReady;
 //   console.log(111);
@@ -23,7 +23,7 @@ const db = drizzle({ client, schema });
 const server = async () => {
   // @ts-ignore
   const { createServer } = await import('pglite-server');
-  await client.waitReady;
+  await client.waitReady; // 等待 PGLite 客户端准备好
   const PORT = 5432;
   const pgServer = createServer(client);
   pgServer.listen(PORT, () => {});
